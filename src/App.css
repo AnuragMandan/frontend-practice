@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+@theme{
+    --font-ClashGro:"ClashGrotesk";
+        --font-helvetica-light:"Helvetica Light";
+         --font-Transat:'TransatW01-Medium';
+}
+@font-face {
+    font-family: ClashGrotesk;
+    src: url('./assets/fonts/ClashGrotesk_Complete/ClashGrotesk_Complete/Fonts/OTF/ClashGrotesk-Regular.otf') format('otf');
+}
+
+@font-face{
+    font-family: TransatW01-Medium;
+    src:url('src\assets\fonts\Transat\Transat W01 Medium\Transat W01 Medium.ttf') format('ttf');
+
+}
+
+
+@font-face {
+    font-family: Helvetica Light;
+    src: url('./assets/fonts/helvetica-255/helvetica-light-587ebe5a59211.ttf') format('ttf');
+
+}
+@theme{
+    --font-helvetica:Helvetica Light;
+}
